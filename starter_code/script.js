@@ -2,7 +2,7 @@ $(document).ready(function(){
 $('#city-type').click(function(){
 event.preventDefault();
 });
-
+//array for city values
 var cities = ["NYC", "SF", "LA", "ATX", "SYD"];
 
 for(var i = 0; i < cities.length; i++){
